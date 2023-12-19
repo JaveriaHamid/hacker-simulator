@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@400;500&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Glitch";
+    color: #4cc94c;
+}
+
+body{
+    background-color: black;
+    background-image: url(images/istockphoto-1141193372-612x612.jpg);
+}
+
+.container{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-content{
+    background-color: black;
+    border: 2px solid rgb(94, 94, 94);
+    width: 20vw;
+    height: 57vh;
+    padding: 25px 20px;
+    opacity: 0.85;
+}
+
+.fpara{
+    text-align: center;
+    font-size: 47px;
+    word-wrap: break-word;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42vw;
+    height: 90vh;
+    padding: 40px 25px;
+}
+
+.second-content{
+    background-color: black;
+    border: 1px solid rgb(94, 94, 94);
+    padding: 30px 16px;
+    width: 40vw;
+    height: 85%;
+    position: relative;
+    opacity: 0.75;
+}
+
+.second-content > p{
+   text-align: center;
+   font-size: 55px;
+   font-weight: 200;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+#name {
+    display: flex;
+    margin: 10px 0;
+    width: 95%;
+    background: none;
+    padding: 4px;
+    border-radius: 4px;
+    color: red;
+}
+
+.input input{
+    margin: 3px 5px;
+}
+
+.input label, .input span {
+    font-size: 21px;
+}
+
+.fetch-data{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 17px;
+    margin-top: 3px;
+    font-weight: 200;
+    font-family: 'Poppins';
+}
+
+.text:last-child{
+    font-family: 'Rubik Glitch';
+    position: absolute;
+    align-self: center;
+    font-size: 36px;
+    bottom: 100px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 7px 28px;
+    font-size: 24px;
+    font-weight: 200;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(21, 190, 21);
+    transition: all 0.65s ease-in-out;
+    box-shadow: 9px 2px 3px 2px rgb(17 24 17);
+}
