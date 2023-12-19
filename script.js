@@ -12,11 +12,11 @@ async function hacked(){
     if((input.value !== "") && (fb.checked || insta.checked || whatsapp.checked)){
         let para = setInterval(()=>{
             fpara[0].innerHTML = randomNum();
-            fpara[0].style.fontSize = "14.9px";
+            fpara[0].style.fontSize = "14px";
         }, 250);
         let para1 = setInterval(()=>{
             fpara[1].innerHTML = randomNum();
-            fpara[1].style.fontSize = "14.9px";
+            fpara[1].style.fontSize = "14px";
         }, 300);
         let data = await initializeHacking();
         console.log(data); 
